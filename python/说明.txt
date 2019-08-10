@@ -1,0 +1,4 @@
+#############################对python脚本的说明
+1.vhd2intf.py脚本作用：将vhdl代码的接口转换成interface，其形式为logic [?:?] interface;
+2.delete.py脚本作用：是将文本的空格删除。
+
