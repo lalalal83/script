@@ -1,4 +1,4 @@
-#/usr/bin/pyhon3
+#!/usr/bin/python3
 
 import re
 import sys 
@@ -15,11 +15,11 @@ def select(num):
          lines = handle.readlines()
          new_file = open('bbb.txt','w')
          for line in lines:
-            if (conuter <= 6 or conuter >= 27):         
+            if (conuter <= 6 or conuter >= 27):        #or  == a || b 
                print(conuter)
                top_line = re.sub(r'xxxxxx','ddd',line)
                new_file.write(top_line)
-            conuter = conuter + 1
+            conuter += 1
          new_file.close()
    elif num == 1:
       pass
