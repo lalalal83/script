@@ -1,0 +1,1 @@
+git@github.com:funningboy/uvm_axi.git
