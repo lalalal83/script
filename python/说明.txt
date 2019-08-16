@@ -3,3 +3,4 @@
 2.delete.py脚本作用：是将文本的空格删除。
 3.select.py脚本作用：用于对于一些文本的选择，哪些行需要使用，哪些行不需要使用
 4.read_csv.py脚本作用：使用pandas模块，对csv文本进行数据分析
+5.uvm_gen.py脚本作用：使用python脚本生成uvm验证平台

@@ -1,3 +1,8 @@
+#############################
+#####xianyang.zhang 2019.8.10
+#####this is a python for auto run
+#############################
+
 import sys
 import time
 import unittest
@@ -14,6 +19,11 @@ re_IUS_ERROR    = re.compile("^irun:\s+\*E\,"             ,re.M)
 re_IUS_WARNING  = re.compile("^irun:\s+\*W\,"             ,re.M)
 
 class IUSAXIBase(unittest.TestCase):
+
+    def __init__(self,a,b)
+        self.a = a
+        self.b = b 
+
 
     def setUp(self):
         os.chdir('/user/seanchen/project/uvm_axi')

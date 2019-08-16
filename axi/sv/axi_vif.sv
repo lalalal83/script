@@ -12,7 +12,7 @@
 interface AXI_vif #(
 				parameter integer C_AXI_ID_WIDTH 	  = 10, // default 4
 				parameter integer C_AXI_ADDR_WIDTH 	= 32,
-        parameter integer C_AXI_REG_WITH    = 4,
+            parameter integer C_AXI_REG_WITH    = 4,
 				parameter integer C_AXI_DATA_WIDTH 	= 32,
 				parameter integer C_AXI_LEN_WIDTH 	= 8,  // default 4
 				parameter integer C_AXI_SIZE_WIDTH 	= 3,

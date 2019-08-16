@@ -28,7 +28,7 @@ task {:NAME:}Sequence::body;
     {:TRANSACTION:} orig_req = {:TRANSACTION:}::type_id::create("orig_req");
     {:TRANSACTION:} req;
 
-    $cast(req, orig_req.clone());
+    $cast(req, orig_req.clone());    //$cast : type constraint 
     start_item(req); // wait for request from driver
 
     if (!req.randomize()) begin // late "just-in-time" randomization
